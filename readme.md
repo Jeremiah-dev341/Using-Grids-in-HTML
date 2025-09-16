@@ -26,6 +26,9 @@ This project is a fixed-layout school timetable built with HTML and CSS.
 - `timetable_preview.png` — Screenshot of the timetable (see below)
 - `README.md` — This documentation
 
+## Screenshot
+
+![Timetable Preview](timetable_preview.png "Screenshot of the completed timetable for 2024/2025 academic year")
 
 ## Customization
 
@@ -35,4 +38,3 @@ This project is a fixed-layout school timetable built with HTML and CSS.
 ## Author
 
 Created by Jeremiah Kinuthia.
-
