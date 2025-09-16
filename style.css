@@ -1,0 +1,114 @@
+       body {
+          align-items: center;     
+          height: 100vh;
+          width: 100%;
+          margin: 0;
+          font-family: sans-serif;
+          background: #f9f9f9;
+     }
+    .tt-item{
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+          font-size: 15px;
+          box-sizing: border-box;
+          font-family: sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .tt-container{
+          display: grid;
+          gap: 0px;
+          grid-template-columns:60px 80px 150px 150px 150px 80px 150px 150px 150px 80px 150px 150px 150px 150px;
+          grid-template-rows: 40px repeat(26, 1fr);
+          width: 95vw;
+          height: 95vh;
+          box-sizing: border-box;
+          margin-bottom: 5px;
+       }
+       
+        .mon-day{
+          grid-row: span 5;
+          background-color: rgba(128, 128, 128, 0.233);
+        }
+        .tue-sday{
+          grid-row: span 5;
+          background-color: rgba(128, 128, 128, 0.233);
+        }
+        .wed-nesday{
+          grid-row: span 5;
+          background-color: rgba(128, 128, 128, 0.233);
+        }
+        .thur-sday{
+          grid-row: span 5;
+          background-color: rgba(128, 128, 128, 0.233);
+        }
+        .fri-day{
+          grid-row: span 5;
+          background-color: rgba(128, 128, 128, 0.233);
+        }
+        .form-tutor-time{
+          grid-row: span 26;
+          border-collapse: collapse;
+          gap: 0px;
+          font-weight: bold;
+          font-size: 40px;
+        }
+        .form-tutor-time-end{
+          grid-row: span 26;
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .devotion-time{
+          grid-row: span 5;
+        }
+        .break-time{
+          grid-row: span 5;
+          font-weight:700;
+        }
+        .lunch-time{
+          grid-row: span 5;
+          font-weight:700;
+        }
+        .gender-meeting-time{
+          grid-row: span 5;
+        }
+        .club-time{
+          grid-row: span 5;
+        }
+        .mind-lecture-time{
+          grid-row: span 5;
+        }
+        .games-time{
+          grid-row: span 5;
+        }
+        .timetable-title{
+          grid-column: 1 / -1; 
+          grid-row: 1 / 2; 
+          text-align: center;
+          font-size: 18px;
+          font-weight: bold;
+          padding: 10px 0;  
+        }
+        .day-time {
+          grid-column: 1/2;
+          grid-row: 2/3; 
+          background-color: rgba(128, 128, 128, 0.233);
+        }
+        .name-items{
+          width: 95vw;
+          max-width: 2100px;
+          margin: 0 auto;
+          text-align: left;
+          font-size: 18px;
+          font-weight: normal;
+          font-family: sans-serif;
+          box-sizing: border-box;
+          display: block;
+          position: static;
+          margin-top: 30px;
+        }
+        .time-allocated{
+          background-color: rgba(128, 128, 128, 0.233);
+        }
